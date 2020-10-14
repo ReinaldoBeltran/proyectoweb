@@ -1,11 +1,31 @@
 h1{
-    color: white;
+    color: black;
 }
 .footer{
-    color: aliceblue;
+    color: black;
+    background-color: #A3A0A0;
+}
+.footer a{
+    color: darkslategray;
+}
+#navStyle{
+    background-color: #E6C3C3;
 }
 @media screen and (max-width: 800px){
     img{
         display: none;
     }
 }
+body{
+    background-color: #E9E1E1;
+}
+/*
+Paleta
+
+Fuerte: #E6C3C3
+Cuerpo: #E6D4D4
+Ligero: #E9E1E1
+Footer: #A3A0A0
+
+
+*/

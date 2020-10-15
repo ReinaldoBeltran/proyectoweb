@@ -9,20 +9,21 @@ h1{
     color: darkslategray;
 }
 #navStyle{
-    background-color: #E6C3C3;
+    background-color: #E6D4D4;
+}
+.banner2{
+    display: none;
 }
 @media screen and (max-width: 800px){
-    img{
+    .banner1{
         display: none;
     }
+    .banner2{
+        display: block;
+    }
 }
-body{
-    background-color: #C6F7F9;
-    /* #E9E1E1 */
-}
-
-#qs{
-	background-color: #74FAE6;
+.cuerpo{
+    background-color: #E9E1E1;
 }
 
 

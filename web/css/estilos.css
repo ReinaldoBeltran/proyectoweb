@@ -3,13 +3,13 @@ h1{
 }
 .footer{
     color: black;
-    background-color: #A3A0A0;
+    background-color: gainsboro;
 }
 .footer a{
-    color: darkslategray;
+    color: white;
 }
 #navStyle{
-    background-color: #E6D4D4;
+    background-color: gainsboro;
 }
 .banner2{
     display: none;
@@ -17,6 +17,30 @@ h1{
 .vtp{
     display: block;
     margin: auto;
+}
+.sidebar
+{
+    width: 18%;
+    margin-left: 1%;
+    margin-top: 20%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+}
+.sidebar2
+{
+    width: 18%;
+    margin-left: 1%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+}
+h3{
+    color: darkgray;
+}
+.sidebar button{
+    background-color: aliceblue;
+    color: black;
 }
 
 @media screen and (max-width: 800px){
